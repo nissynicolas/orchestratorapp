@@ -10,7 +10,7 @@ from typing import Optional
 app = FastAPI()
 
 # Set your OpenAI API key (ensure this is set in your environment for production)
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY", "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")
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY", "sk-proj-1234")
 
 # LLM-based intent classification using LangChain
 prompt = PromptTemplate(
